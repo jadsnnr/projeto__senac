@@ -5,110 +5,103 @@
   text-decoration: none;
   list-style-type: none;
 }
-:root{
+:root {
   --txt_color: #f7b600;
   --txt_color_02: #3d3d3d;
   --bg_color: #e6e6e6;
-  --bg_txt_color:#b4b4b4;
+  --bg_txt_color: #b4b4b4;
 }
 
-body{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background: var(--bg_color) ;
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: var(--bg_color);
 }
 
-.container{
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 15vh 65vh 60vh 5vh;
+  grid-template-areas:
+    "header header header"
+    ". hero aside"
+    ". sec ."
+    "footer footer footer";
   gap: 1.5rem;
 }
 
-#nav_bar{
-background-color: #f7b600;
-grid-column-start: 1;
-grid-column-end: 5;
-text-align: center;
+#nav_bar {
+  grid-area: header;
+  background-color: #f7b600;
+  text-align: center;
 }
-h1{
+h1 {
   padding-top: 2rem;
 }
-ul{
+ul {
   margin-top: 1rem;
 }
-header>ul>li{
+header > ul > li {
   display: inline;
-  
 }
-.common{
+.common {
   color: white;
   padding: 0.5rem;
-
 }
-.common:hover{
+.common:hover {
   background-color: var(--bg_color);
   color: rgb(48, 48, 48);
   border-radius: 3px;
   transition: 0.3s;
-
 }
-.colored{
+.colored {
   color: var(--txt_color);
 }
 
-.hero{
+.hero {
   background: white;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-area: hero;
   width: 36vw;
   padding: 1rem;
 }
 
-img{
+img {
   padding-top: 1rem;
 }
 
-.secundary{
+.secundary {
   width: 36vw;
   padding: 1rem;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-area: sec;
   background: white;
 }
-#as_section{
-  grid-column-start: 3;
-  grid-column-end: 4;
+#as_section {
+  grid-area: aside;
   display: inline;
   grid-row-start: 2;
   width: 20rem;
   height: 35vh;
 }
 
-.side__info{
+.side__info {
   background-color: white;
   padding: 1rem;
 }
-.side__links{
+.side__links {
   margin-top: 1rem;
   padding: 1rem;
   background-color: white;
 }
-h6{
+h6 {
   background: var(--bg_txt_color);
   padding: 0.5rem;
   font-size: large;
   color: var(--txt_color_02);
 }
-footer{
+footer {
   background: var(--bg_txt_color);
-  grid-column-start: 1;
-grid-column-end: 5;
-margin-bottom: 1rem;
-padding: 0.5rem;
-text-align: center;
-}
-
-/*colors
- #f7b600;
-  #e6e6e6;
+  grid-area: footer;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  text-align: center;
 }
