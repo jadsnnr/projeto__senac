@@ -12,9 +12,47 @@ Definição projeto:
 
 * Tem objetivo claro e viável.
 
-PMBOK
+-!- PMBOK > iniciação > planejamento > execução > monitoramento > encerramento -!-
 
 *Papeis de gestão de projetos
 ** sponsor: É o patrocinador ( qualquer elemento para realizar as entregas, seja capital, material, didático...)> participa esporádicamente do projeto
 ** gerente: É quem gere o projeto > participa por todo o processo
 ** cliente: É a quem será entregue o produto > participa esporádicamente do projeto
+
+Ciclo de vida de um projeto
+
+*Termo de abertura de projeto (TAP)
+
+**objetivo
+**gerente
+**prazos
+**recursos
+**viabilidade
+
+*Estrutura analítica do projeto (EAP)
+
+**escopo
+**cronograma
+**custos
+**riscos
+
+*Execução
+
+**ajustes
+**atualização
+**alocação da equipe
+**execução da tarefa
+**replanejamento
+
+*Monitoramento
+
+**status da atividade
+**prazos
+**andamento
+
+*Termo de encerramento do projeto (TEP)
+
+**entregas finais
+**revisao
+**licoes aprendidas
+
