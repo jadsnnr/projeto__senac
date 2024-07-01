@@ -1,0 +1,20 @@
+Gestão de projetos
+
+Definição projeto:
+
+* É unico;
+
+* Tem início e fim definidos;
+
+* É progressivo;
+
+* Tem delimitação de recurso/gastos;
+
+* Tem objetivo claro e viável.
+
+PMBOK
+
+*Papeis de gestão de projetos
+** sponsor: É o patrocinador ( qualquer elemento para realizar as entregas, seja capital, material, didático...)> participa esporádicamente do projeto
+** gerente: É quem gere o projeto > participa por todo o processo
+** cliente: É a quem será entregue o produto > participa esporádicamente do projeto
